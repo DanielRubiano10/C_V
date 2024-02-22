@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: Roboto;
@@ -103,6 +107,20 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .cv-container {
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "left-column right-column right-column";
+  }
+}
+
+@media (min-width: 1024px) {
+  .cv-containerr {
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "left-column right-column right-column";
+  }
 }
 
 .infos {
