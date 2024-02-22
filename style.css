@@ -1,7 +1,4 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins:wght@300&display=swap");
 
 body {
   font-family: Roboto;
@@ -116,7 +113,7 @@ h2 {
 
 /* CONTENT */
 .content {
-  grid-area: content;
+  grid-area: k;
   padding: 50px;
 }
 
